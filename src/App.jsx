@@ -22,6 +22,7 @@ export const App = () => {
         id: doc.id,
         ...doc.data(),
       }));
+      // hiihasfdg
       setContacts(contactLists);
       return contactLists;
     });
