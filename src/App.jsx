@@ -35,7 +35,7 @@ const filterContacts = (e) => {
     setContacts(contacts);
     return;
   }
-
+// asfgsdfgadfgsdf
   const filteredContacts = contacts.filter((contact) =>
     contact.name.toLowerCase().includes(value)
   );
