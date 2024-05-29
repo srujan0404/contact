@@ -29,6 +29,7 @@ const ContactCard = ({ contact }) => {
           <div className="text-white">
             <h2 className="text-medium">{contact.name}</h2>
             <p className="text-sm">{contact.email}</p>
+            <p>Added icons<p/>
           </div>
         </div>
         <div className="flex text-3xl">
